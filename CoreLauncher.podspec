@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CoreLauncher'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Abstraction of initialization modules with Swinject DI'
   s.description      = 'Read of summary'
 

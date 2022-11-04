@@ -7,6 +7,9 @@
 //
 
 import Swinject
+
+#if !os(macOS)
+
 import UIKit
 
 ///
@@ -131,3 +134,5 @@ public struct DependencyModuleFactory: DependencyModuleFactoryProtocol {
     }
     
 }
+
+#endif

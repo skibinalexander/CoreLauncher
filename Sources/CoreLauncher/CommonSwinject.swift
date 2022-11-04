@@ -6,7 +6,11 @@
 //  Copyright © 2020 Skibin Development. All rights reserved.
 //
 
+import Foundation
 import Swinject
+
+#if !os(macOS)
+
 import UIKit
 
 public typealias ConfiguratorType = (NSObject & Assembly & ConfiguratorView)
@@ -58,3 +62,5 @@ extension Container {
     }
     
 }
+
+#endif
