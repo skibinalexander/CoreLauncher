@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'CoreLauncher'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Abstraction of initialization modules with Swinject DI'
-  s.description      = 'Read of summary'
+  s.description      = 'Implement Swinject Module Launcher
 
   s.homepage         = 'https://github.com/skibinalexander/CoreLauncher.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
