@@ -1,0 +1,6 @@
+framework module CoreLauncher {
+  umbrella header "CoreLauncher-umbrella.h"
+
+  export *
+  module * { export * }
+}

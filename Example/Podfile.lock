@@ -1,0 +1,23 @@
+PODS:
+  - CoreLauncher (0.0.1):
+    - Swinject
+  - Swinject (2.8.2)
+
+DEPENDENCIES:
+  - CoreLauncher (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Swinject
+
+EXTERNAL SOURCES:
+  CoreLauncher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CoreLauncher: 673fc546b4d32e2f613e633d79bbd314fba85e83
+  Swinject: b4a11b31992e8668308dc594ba1cb9b3164a37ab
+
+PODFILE CHECKSUM: 0cdbfd6b381211c01e8090089b3178db067820ea
+
+COCOAPODS: 1.11.3

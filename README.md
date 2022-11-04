@@ -1,3 +1,3 @@
 # CoreLauncher
 
-A description of this package.
+Implementation base Coordinator for router with modules on Swinject DI
